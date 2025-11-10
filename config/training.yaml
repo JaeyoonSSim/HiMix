@@ -1,0 +1,121 @@
+# MOSMED
+TRAIN:
+  train_batch_size: 32
+  lr: 0.0003
+
+  valid_batch_size: 8
+
+  image_size: [224,224]
+
+  min_epochs: 20 # 20
+  max_epochs: 100 # 100
+  patience: 20
+
+  device: 1
+  de: 0
+
+  model_save_path: ./save_model/mosmed
+  model_save_filename: ours
+
+MODEL:
+  bert_type: microsoft/BiomedVLP-CXR-BERT-specialized # cxr-bert
+  # bert_type: emilyalsentzer/Bio_ClinicalBERT # bioclnicalbert
+  # bert_type: dmis-lab/biobert-base-cased-v1.2 # biobert
+  # bert_type: microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext # pubmedbert
+  # bert_type: allenai/biomed_roberta_base # biomed-roberta
+  vision_type: facebook/convnext-tiny-224
+  project_dim: 768
+  gscorecam_model : resnet
+
+DATA:
+  data: 'mosmed'
+  train_csv_path: ./data/mosmed/prompt/train.csv
+  train_root_path: ./data/mosmed/train
+  valid_csv_path: ./data/mosmed/prompt/val.csv
+  valid_root_path: ./data/mosmed/val
+  test_csv_path: ./data/mosmed/prompt/test.csv
+  test_root_path: ./data/mosmed/test
+
+
+
+
+# # QATA
+# TRAIN:
+#   train_batch_size: 32
+#   lr: 0.0003
+
+#   valid_batch_size: 8
+
+#   image_size: [224,224]
+
+#   min_epochs: 20 # 20
+#   max_epochs: 100 # 100
+#   patience: 20
+
+#   device: 1
+#   de: 1
+
+#   model_save_path: ./save_model/qata
+#   model_save_filename: ours
+
+# MODEL:
+#   bert_type: microsoft/BiomedVLP-CXR-BERT-specialized # cxr-bert
+#   # bert_type: emilyalsentzer/Bio_ClinicalBERT # bioclnicalbert
+#   # bert_type: dmis-lab/biobert-base-cased-v1.2 # biobert
+#   # bert_type: microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext # pubmedbert
+#   # bert_type: allenai/biomed_roberta_base # biomed-roberta
+#   vision_type: facebook/convnext-tiny-224
+#   project_dim: 768
+#   gscorecam_model : resnet
+
+# DATA: 
+#   data: 'qata'
+#   train_csv_path: ./data/qata/prompt/train.csv
+#   train_root_path: ./data/qata/train
+#   valid_csv_path: ./data/qata/prompt/val.csv
+#   valid_root_path: ./data/qata/val
+#   test_csv_path: ./data/qata/prompt/test.csv
+#   test_root_path: ./data/qata/test
+
+
+
+
+
+
+
+# # KVASIR
+# TRAIN:
+#   train_batch_size: 10
+#   lr: 0.0003
+
+#   valid_batch_size: 8
+
+#   image_size: [224,224]
+
+#   min_epochs: 20 # 20
+#   max_epochs: 100 # 100
+#   patience: 20
+
+#   device: 1
+#   de: 4
+
+#   model_save_path: ./save_model/kvasir
+#   model_save_filename: ours
+
+# MODEL:
+#   bert_type: microsoft/BiomedVLP-CXR-BERT-specialized # cxr-bert
+#   # bert_type: emilyalsentzer/Bio_ClinicalBERT # bioclnicalbert
+#   # bert_type: dmis-lab/biobert-base-cased-v1.2 # biobert
+#   # bert_type: microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext # pubmedbert
+#   # bert_type: allenai/biomed_roberta_base # biomed-roberta
+#   vision_type: facebook/convnext-tiny-224 
+#   project_dim: 768
+
+# DATA: 
+#   data: 'kvasir'
+#   train_csv_path: ./data/kvasir/prompt/train.csv
+#   train_root_path: ./data/kvasir/train
+#   valid_csv_path: ./data/kvasir/prompt/val.csv
+#   valid_root_path: ./data/kvasir/val
+#   test_csv_path: ./data/kvasir/prompt/test.csv
+#   test_root_path: ./data/kvasir/test
