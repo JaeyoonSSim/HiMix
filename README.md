@@ -1,6 +1,6 @@
 # [WACV'26] HiMix : Hierarchical Visual-Textual Mixing Network for Lesion Segmentation
 
-[Paper](https://link.springer.com/chapter/10.1007/978-3-031-72086-4_48) | [Project Page](https://jaeyoonssim.github.io/publications/miccai2024/miccai2024_v2.github.io-main/index.html)
+[Paper](https://link.springer.com/chapter/10.1007/978-3-031-72086-4_48) | [Project Page](https://jaeyoonssim.github.io/publications/wacv2026/wacv2026_v1.github.io-main/index.html)
 
 - This is the official PyTorch implementation of HiMix : Hierarchical Visual-Textual Mixing Network for Lesion Segmentation.
 
