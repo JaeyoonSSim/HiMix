@@ -21,3 +21,6 @@ If you find our work useful for your research, please cite the our paper:
   organization={Springer}
 }
 ```
+
+## Acknowledgements
+Our paper is built based on [MMI-UNet](https://github.com/nguyenpbui/MMI-UNet) and [GuideDecoder](https://github.com/Junelin2333/LanGuideMedSeg-MICCAI2023). We really thank the authors for making the source code publicly available.
