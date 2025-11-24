@@ -13,12 +13,11 @@ Lesion segmentation is an essential task in medical imaging to support diagnosis
 If you find our work useful for your research, please cite the our paper:
 ```
 @inproceedings{sim2024multi,
-  title={Multi-modal Graph Neural Network with Transformer-Guided Adaptive Diffusion for Preclinical Alzheimer Classification},
-  author={Sim, Jaeyoon and Lee, Minjae and Wu, Guorong and Kim, Won Hwa},
-  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
-  pages={511--521},
-  year={2024},
-  organization={Springer}
+  title={HiMix : Hierarchical Visual-Textual Mixing Network for Lesion Segmentation},
+  author={Hwang, Soojing and Sim, Jaeyoon and Kim, Won Hwa},
+  booktitle={2025 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+  year={2026},
+  organization={IEEE}
 }
 ```
 
