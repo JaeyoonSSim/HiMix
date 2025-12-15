@@ -15,7 +15,7 @@ If you find our work useful for your research, please cite the our paper:
 @inproceedings{hwang2026himix,
   title={HiMix : Hierarchical Visual-Textual Mixing Network for Lesion Segmentation},
   author={Hwang, Soojing and Sim, Jaeyoon and Kim, Won Hwa},
-  booktitle={2025 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+  booktitle={2026 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
   year={2026},
   organization={IEEE}
 }
