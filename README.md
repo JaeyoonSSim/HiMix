@@ -10,18 +10,19 @@
 Lesion segmentation is an essential task in medical imaging to support diagnosis and assessment of pulmonary diseases. While deep learning models have shown success in various domains, their reliance on large-scale annotated datasets limits applicability in the medical domain due to labeling cost. To address this issue, recent studies in medical image segmentation have utilized clinical texts as complementary semantic cues without additional annotations. However, most existing methods utilize a single textual embedding and fail to capture hierarchical interactions between language and visual features, which limits their ability to leverage fine-grained cues essential for precise and detailed segmentation. In this regime, we propose Hierarchical Visual-Textual Mixing Network (HiMix), a novel multi-modal segmentation framework that mixes multi-scale image and text representations throughout the mask decoding process. HiMix progressively injects hierarchical text embedding, from high-level semantics to fine-grained spatial details, into corresponding image decoder layers to bridge the modality gap and enhance visual feature refinement at multiple levels of abstraction. Experiments on the QaTa-COV19 and MosMedData+ datasets demonstrate that HiMix consistently outperforms uni-modal and multi-modal methods. Furthermore, HiMix exhibits strong generalization to unstructured textual formats, highlighting its practical applicability in real-world clinical scenarios.
 
 ## Requirements
-Environment:  
-    ```
-    python=3.10.11
-    torch=2.0.1 
-    torchvision=0.15.2  
-    pytorch_lightning=1.9.0  
-    torchmetrics=1.6.1  
-    transformers=4.24.0  
-    monai=1.0.0  
-    pandas=2.2.3 
-    einops=0.8.0  
-    ```
+Environment:
+
+```
+python=3.10.11
+torch=2.0.1 
+torchvision=0.15.2  
+pytorch_lightning=1.9.0  
+torchmetrics=1.6.1  
+transformers=4.24.0  
+monai=1.0.0  
+pandas=2.2.3 
+einops=0.8.0  
+```
 
 ## Citation
 If you find our work useful for your research, please cite the our paper:
