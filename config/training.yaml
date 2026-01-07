@@ -25,7 +25,6 @@ MODEL:
   # bert_type: allenai/biomed_roberta_base # biomed-roberta
   vision_type: facebook/convnext-tiny-224
   project_dim: 768
-  gscorecam_model : resnet
 
 DATA:
   data: 'mosmed'
@@ -66,7 +65,6 @@ DATA:
 #   # bert_type: allenai/biomed_roberta_base # biomed-roberta
 #   vision_type: facebook/convnext-tiny-224
 #   project_dim: 768
-#   gscorecam_model : resnet
 
 # DATA: 
 #   data: 'qata'
